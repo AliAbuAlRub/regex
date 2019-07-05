@@ -28,7 +28,7 @@ public class Main {
 		String text2 = "";// text2 to take each paragraph for a special interface and send it to test
 							// method
 
-		int numberOfInterfaces = 0;// to how many interface we have
+		int numberOfInterfaces = 0;//counter to count number of interfaces
 		while (scanner.hasNext()) {// to loop through the given file
 			text = scanner.nextLine();
 			if (!text.equals("")) {
